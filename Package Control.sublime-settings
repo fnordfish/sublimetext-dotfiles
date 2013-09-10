@@ -1,0 +1,35 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"Alternative Autocompletion",
+		"ApacheConf.tmLanguage",
+		"ApplySyntax",
+		"Change Tracker",
+		"Chef",
+		"Dictionaries",
+		"Emacs-like Modelines",
+		"Emmet",
+		"GitGutter",
+		"Haml",
+		"Handlebars",
+		"HexViewer",
+		"HTML5",
+		"INI",
+		"jQuery",
+		"LESS",
+		"Markdown Extended",
+		"Modelines",
+		"Monokai Extended",
+		"Package Control",
+		"Puppet",
+		"SCSS",
+		"SublimeCodeIntel",
+		"SublimErl",
+		"SyncedSideBar",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"Wrap Plus"
+	]
+}

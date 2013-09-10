@@ -1,0 +1,77 @@
+[
+    //  - Sidebar tree (bg)
+    {
+        "class": "sidebar_tree",
+        "row_padding": [5, 2.5],
+        "layer0.tint": [220, 220, 220], // dark gray
+        "layer0.opacity": 1.0
+    },
+
+    // Sidebar rows
+    {
+        "class": "tree_row",
+        "layer0.texture": "Theme - Soda/Soda Dark/sidebar-row-selected.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    // Sidebar row selected
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 1.0
+    },
+    // Sidebar heading
+    {
+        "class": "sidebar_heading",
+        "color": [150, 150, 150],
+        "font.bold": true,
+        "shadow_color": [243, 243, 243],
+        "shadow_offset": [0, 1]
+    },
+    // Sidebar heading selected
+    {
+        "class": "sidebar_heading",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "shadow_offset": [0, 1]
+    },
+    // Sidebar entry
+    {
+        "class": "sidebar_label",
+        "color": [0, 0, 0],
+        "shadow_color": [125, 125, 125],
+        "shadow_offset": [0, 0],
+        "font.bold": false,
+        "font.italic": false
+    },
+    // Sidebar folder entry
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [0,0,0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [0,0,0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    },
+    // Sidebar entry selected
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [210, 210, 210],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
+    },
+    // Sidebar entry transient
+    {
+        "class": "sidebar_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
+]
