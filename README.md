@@ -9,6 +9,7 @@ My personal SublimeText User settings.
 (checkout into `/Packages`)
 
 * The ST3 branch of [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
+* @UlfS fork of [TrailingSpaces](https://github.com/UlfS/TrailingSpaces)
 
 ## Some of my settings derive from other projects:
 
