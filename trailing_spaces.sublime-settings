@@ -19,5 +19,10 @@
     // saved.
     // Set to true to force saving after trailing spaces have been deleted.
     // This setting is irrelevant and will be ignored if trim_on_save is true.
-	"trailing_spaces_save_after_trim": false
+	"trailing_spaces_save_after_trim": false,
+
+    // Views with a syntax that contains "Diff" are ignored
+    "trailing_spaces_syntax_ignore": [
+        "Diff", "Markdown", "Markdown Extended"
+    ]
 }
