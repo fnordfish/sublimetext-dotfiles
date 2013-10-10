@@ -1,4 +1,6 @@
 {
+	"WrapPlus.break_long_words": false,
+	"WrapPlus.break_on_hyphens": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/MonokaiMD.tmTheme",
@@ -44,8 +46,5 @@
 	"soda_folder_icons": false,
 	"spell_check": true,
 	"theme": "Soda Light 3.sublime-theme",
-	"wordWrap": false,
-	"word_wrap": false,
-	"WrapPlus.break_long_words": false,
-	"WrapPlus.break_on_hyphens": false
+	"word_wrap": false
 }
