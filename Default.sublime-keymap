@@ -1,0 +1,4 @@
+[
+  { "keys": ["alt+shift+r"], "command": "zen_tabs_reload"},
+  { "keys": ["super+alt+down"], "command": "switch_tabs"}
+]

@@ -8,10 +8,14 @@
 		"ApplySyntax",
 		"Change Tracker",
 		"Chef",
+		"Comments Aware Enter",
+		"CSS Color Converter",
+		"DashDoc",
 		"Dictionaries",
 		"Emacs-like Modelines",
 		"Emmet",
 		"ERB Snippets",
+		"Find++",
 		"GitGutter",
 		"Haml",
 		"Handlebars",
@@ -30,8 +34,10 @@
 		"SublimeCodeIntel",
 		"SublimErl",
 		"SyncedSideBar",
+		"Synchronized File Scrolling",
 		"Theme - Soda",
 		"TrailingSpaces",
-		"Wrap Plus"
+		"Wrap Plus",
+		"Zen Tabs"
 	]
 }
