@@ -2,6 +2,7 @@
 	"WrapPlus.break_long_words": false,
 	"WrapPlus.break_on_hyphens": false,
 	"bold_folder_labels": true,
+	"caret_extra_width": 1.5,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/MonokaiMD.tmTheme",
 	"detect_slow_plugins": false,
