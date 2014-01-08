@@ -43,6 +43,8 @@
 		80
 	],
 	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
 	"spell_check": true,
