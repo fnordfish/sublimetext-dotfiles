@@ -10,6 +10,8 @@
 	{ "keys": ["alt+tab"], "command": "indent" },
 	{ "keys": ["alt+shift+tab"], "command": "unindent" },
 
-	{ "keys": ["ctrl+shift+."], "command": "erb" }
+	{ "keys": ["ctrl+shift+."], "command": "erb" },
+
+	{ "keys": ["super+alt+r"], "command": "goto_definition" }
 
 ]

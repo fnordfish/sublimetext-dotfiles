@@ -1,11 +1,27 @@
 {
-	"WrapPlus.break_long_words": false,
-	"WrapPlus.break_on_hyphens": false,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"*/tmp/cache/assets/sprockets/*"
+	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 1.5,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/MonokaiMD.tmTheme",
 	"detect_slow_plugins": false,
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -19,19 +35,27 @@
 		".git",
 		".svn"
 	],
-	"font_face": "Monaco for Powerline",
+	"font_face": "Hack",
 	"font_options":
 	[
-		"subpixel_antialias"
+		"no_round"
 	],
-	"font_size": 11.0,
+	"font_size": 12,
 	"gutter": true,
 	"highlight_active_indent_guide": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Git",
+		"git",
+		"Markdown",
+		"Rust",
 		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log"
 	],
 	"match_brackets": true,
 	"match_brackets_content": false,
@@ -39,9 +63,11 @@
 	"match_bracktets_angle": true,
 	"match_bracktets_braces": true,
 	"open_files_in_new_window": true,
+	"reveal-on-activate": true,
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"scroll_past_end": true,
 	"show_encoding": true,
@@ -50,5 +76,9 @@
 	"soda_folder_icons": false,
 	"spell_check": true,
 	"theme": "Soda Light 3.sublime-theme",
+	"theme_font_options":
+	[
+		"no_round"
+	],
 	"word_wrap": false
 }

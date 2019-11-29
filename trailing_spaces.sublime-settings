@@ -1,28 +1,13 @@
 {
-	// By default, Trailing Spaces is "live". It means the trailing spaces
-    // regions will be matched in the background, and highlighted if a color
-    // scope is defined, when the document is opened and edited.
-    // Set to false to disable live matching and highlighting (the deletion
-    // command remains available, so-called "lazy matching").
-	"trailing_spaces_enabled" : true,
-
-	// Highlight color is specified as a scope. You may define and use a custom
-    // scope to better fit your colorscheme.
-	"trailing_spaces_highlight_color" : "comment",
-
-	// By default, nothing happens on save.
-    // Set to true to trim trailing spaces before saving, with respect to the
-    // other settings.
-	"trailing_spaces_trim_on_save": true,
-
-	// By default, deleting trailing spaces does not cause the document to be
-    // saved.
-    // Set to true to force saving after trailing spaces have been deleted.
-    // This setting is irrelevant and will be ignored if trim_on_save is true.
+	"trailing_spaces_enabled": true,
+	"trailing_spaces_highlight_color": "comment",
 	"trailing_spaces_save_after_trim": false,
-
-    // Views with a syntax that contains "Diff" are ignored
-    "trailing_spaces_syntax_ignore": [
-        "Diff", "Markdown", "Markdown Extended"
-    ]
+	"trailing_spaces_syntax_ignore":
+	[
+		"Diff",
+		"Markdown",
+		"Markdown Extended",
+		"SQL"
+	],
+	"trailing_spaces_trim_on_save": true
 }
